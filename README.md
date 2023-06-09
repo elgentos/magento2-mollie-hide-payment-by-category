@@ -2,7 +2,7 @@
 
 ## Magento 2 module to hide Mollie payment methods based on category
 
-This module allows you to hide Mollie payment methods based on category. This is useful if you want to hide payment methods like Klarna or Afterpay for certain categories.
+This module allows you to hide Mollie payment methods based on the categories of the products in the cart. This is useful if you want to hide payment methods like Klarna or Afterpay for certain categories.
 
 ## Installation
 

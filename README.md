@@ -14,3 +14,5 @@ php bin/magento s:up
 ## Configuration
 
 Go to Stores > Configuration > Mollie > Payment Methods and you can select the categories for which you want to hide per payment method.
+
+![image](https://github.com/elgentos/magento2-mollie-hide-payment-by-category/assets/14839421/68d096c7-d94e-4c6c-acb2-0c5492af44ca)

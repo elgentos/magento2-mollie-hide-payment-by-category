@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="mollie_payment_methods">
+            <group id="mollie_methods_applepay">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_applepay/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_bancontact">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_bancontact/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_banktransfer">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_banktransfer/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_belfius">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_belfius/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_billie">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_billie/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_creditcard">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_creditcard/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_directdebit">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_directdebit/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_eps">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_eps/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_giftcard">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_giftcard/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_giropay">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_giropay/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_ideal">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_ideal/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_in3">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_in3/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_kbc">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_kbc/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_klarnapaylater">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_klarnapaylater/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_klarnapaynow">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_klarnapaynow/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_klarnasliceit">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_klarnasliceit/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_mybank">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_mybank/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_paypal">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_paypal/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_paymentlink">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_paymentlink/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_paysafecard">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_paysafecard/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_przelewy24">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_przelewy24/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_sofort">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_sofort/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+            <group id="mollie_methods_voucher">
+                <field id="exclude_categories" translate="label" type="multiselect" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <config_path>payment/mollie_methods_voucher/exclude_categories</config_path>
+                    <can_be_empty>1</can_be_empty>
+                    <label>Exclude Categories</label>
+                    <source_model>Elgentos\MollieHidePaymentByCategory\Model\Config\Source\Category</source_model>
+                    <frontend_model>Elgentos\MollieHidePaymentByCategory\Block\Adminhtml\MultiSelect</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

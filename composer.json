@@ -2,7 +2,7 @@
     "name": "elgentos/magento2-mollie-hide-payment-by-category",
     "description": "Hide Mollie payment methods based on category",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "proprietary"
     ],
